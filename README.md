@@ -355,3 +355,86 @@ To github.com:srinfotechbatch5/SRINFOTECHDemo.git
 HP@DESKTOP-3GU6R56 MINGW64 ~/Documents/SRINFOTECH Batch5/SRINFOTECHDemo (main)
 $
 
+
+
+25/12/2025::
+===========
+
+We need to clone the hellowrold jaav project below is the Project github link
+
+https://github.com/srinfotechbatch5/hello-world-java/blob/master/HelloWorld.java
+
+
+Lab Practice::
+================
+
+HP@DESKTOP-3GU6R56 MINGW64 ~/Documents/SRINFOTECH Batch5
+$ git clone git@github.com:srinfotechbatch5/hello-world-java.git
+Cloning into 'hello-world-java'...
+remote: Enumerating objects: 16, done.
+remote: Total 16 (delta 0), reused 0 (delta 0), pack-reused 16 (from 1)
+Receiving objects: 100% (16/16), done.
+Resolving deltas: 100% (3/3), done.
+
+HP@DESKTOP-3GU6R56 MINGW64 ~/Documents/SRINFOTECH Batch5
+$ cd hello-world-java
+
+HP@DESKTOP-3GU6R56 MINGW64 ~/Documents/SRINFOTECH Batch5/hello-world-java (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   HelloWorld.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HP@DESKTOP-3GU6R56 MINGW64 ~/Documents/SRINFOTECH Batch5/hello-world-java (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   HelloWorld.java
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+HP@DESKTOP-3GU6R56 MINGW64 ~/Documents/SRINFOTECH Batch5/hello-world-java (master)
+$ git add --all
+
+HP@DESKTOP-3GU6R56 MINGW64 ~/Documents/SRINFOTECH Batch5/hello-world-java (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   HelloWorld.java
+        modified:   README.md
+
+
+HP@DESKTOP-3GU6R56 MINGW64 ~/Documents/SRINFOTECH Batch5/hello-world-java (master)
+$ git commit -m "updated hello java class"
+[master 6be2884] updated hello java class
+ 2 files changed, 14 insertions(+)
+
+HP@DESKTOP-3GU6R56 MINGW64 ~/Documents/SRINFOTECH Batch5/hello-world-java (master)
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 498 bytes | 249.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:srinfotechbatch5/hello-world-java.git
+   4947e1e..6be2884  master -> master
+
+HP@DESKTOP-3GU6R56 MINGW64 ~/Documents/SRINFOTECH Batch5/hello-world-java (master)
+$
+
