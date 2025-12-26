@@ -365,6 +365,61 @@ We need to clone the hellowrold jaav project below is the Project github link
 https://github.com/srinfotechbatch5/hello-world-java/blob/master/HelloWorld.java
 
 
+Fork in Github::
+====================
+
+In GitHub, forking is a way to create your own copy of someone else's repository. example please fork below project to your own github account
+
+steps to fork the project::
+============================
+
+Go to Above Project URL
+
+https://github.com/srinfotechbatch5/hello-world-java/blob/master/HelloWorld.java
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/45b0c823-863d-447b-943e-a32cbfc6cb65" />
+
+
+at top right we can found Fork option in github Account 
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/406477ce-4851-462c-9187-30e50320c4f7" />
+
+
+Click on Fork and click create Fork 
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f399adbd-d00c-4cd9-9dd3-9a0e16170aa5" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/59c07b24-f750-41ba-851c-4f2b6712ccaf" />
+
+
+Successfully Fork done from someone else's repository 
+
+once above steps done ,please clone the Project and Modified files and push to github repository
+
+
+
+Commands::
+==============
+
+git clone   ---->clone the project code from remote to local machine
+
+
+>git clone https://github.com/srinfotechbatch5/hello-world-java/blob/master/HelloWorld.java
+
+>cd hello-world-java
+
+after made the some changes
+
+>git status
+
+>git add --all
+
+>git status
+
+>git commit -m "commit message"
+
+>git push   ----> changes pushed from local machine to remote
+
 Lab Practice::
 ================
 
@@ -437,4 +492,6 @@ To github.com:srinfotechbatch5/hello-world-java.git
 
 HP@DESKTOP-3GU6R56 MINGW64 ~/Documents/SRINFOTECH Batch5/hello-world-java (master)
 $
+
+
 
